@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(./pexels-dmitriy-piskarev-8995275.jpg);
+    background-size: covers;
+    width: 100%;
+
+    border: 10px groove rgb(107,168,16);
+}
+.parent{
+    width: 98%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.child{
+    border: 10px solid red;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    border-radius: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.child1{
+    width: 25%;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.child2{
+    width: 35%;
+    height: 50px;
+    margin-left: -250px;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.child3{
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
+}
+.sec{
+    
+    width: 98%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    /*align-content: center;*/
+
+}
+.circle{
+    background-color: rgb(47, 132, 132);
+    border: 5px gray solid;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 350px;
+
+    
+}
+.content{
+    position:absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.para{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+form{
+    width: 500px;
+    height: 970px;
+    border: 5px dashed red;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+   /* align-self: center;
+    position: relative;*/
+    margin-right:150px;
+
+    
+}
+/*hr{
+    border: 1px solid red;
+}*/
+
+form h1{
+    color: rgb(224,97,97);
+    padding:25px 10px;
+}
+form input{
+    text-align: center;
+    width: 200px;
+    font-size: 15px;
+    
+}
+form label{
+    margin-top: 20px;
+    display: block;
+    color:  rgb(224,97,97);
+    font-size: 20px;
+}
+button{
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 15spx;
+}
+.child4{
+    width: 35%;
+    text-align: center;
+    height: 50px;
+    margin-left: -250px;
+    margin-top: 20px;
+    
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.parent2{
+    width: 98%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+ul{
+    padding-left: 20px;
+}
+.menu{
+    color: rgb(135, 67, 199);
+}
+    
+.starters{
+    
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 40px;
+    background-color: rgb(120, 249, 249);
+    
+    width: 20%;
+    height: auto;
+    
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+    font-size: 21px;
+  align-items: center;
+}
+
+.menu1{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   
+}
+.star{
+   text-align: center;
+   border: 2px solid green;
+   border-radius: 40px;
+   background-color: rgb(120, 249, 249);
+   color: rgb(135, 67, 199);
+   width: 20%;
+   height: 300px;
+   
+   text-align: center;
+   padding: 15px;
+   margin: 30px;
+   font-size: 21px;
+}
